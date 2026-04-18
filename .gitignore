@@ -1,0 +1,78 @@
+# 通用 .gitignore 模板（screen_tool）
+
+# 操作系统
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.viminfo
+*.sublime-workspace
+*.sublime-project
+
+# 构建产物
+dist/
+build/
+out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.pyc
+__pycache__/
+node_modules/
+.pnp
+.pnp.js
+
+# 日志
+*.log
+logs/
+
+# 环境变量 / 配置
+.env
+.env.local
+.env.*.local
+
+# 临时文件
+*.tmp
+*.bak
+*.cache
+*.temp
+
+# 依赖（可按需取消注释）
+# packages/
+# *.egg-info/
+
+# 测试覆盖率
+coverage/
+*.lcov
+
+# 压缩包
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+
+# 密钥 / 敏感文件
+*.pem
+*.key
+*.p12
+*.jks
+secrets/
+credentials/
